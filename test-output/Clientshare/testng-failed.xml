@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Clientshare]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="AddPost_Settings(failed)">
+    <classes>
+      <class name="AddPostSettings">
+        <methods>
+          <include name="pin_NewPost"/>
+          <include name="unpin_NewPost"/>
+          <include name="launchbrowser"/>
+          <include name="newPost_Expand"/>
+          <include name="newPost_Minimize"/>
+          <include name="close_Browser"/>
+        </methods>
+      </class> <!-- AddPostSettings -->
+    </classes>
+  </test> <!-- AddPost_Settings(failed) -->
+  <test thread-count="5" name="Community_UI(failed)">
+    <classes>
+      <class name="CommunityUI">
+        <methods>
+          <include name="getCssValue_CommunityBiography_TextFontWeight"/>
+          <include name="loginCS"/>
+          <include name="tearDown"/>
+          <include name="getCssValue_CommunityBiography_TextFontFamily"/>
+          <include name="getCssValue_CommunityBiography_TextFontSize"/>
+          <include name="getCssValue_CommunityBiography_TextColor"/>
+          <include name="getCssValue_CommunityBiography_BackgroundColor"/>
+        </methods>
+      </class> <!-- CommunityUI -->
+    </classes>
+  </test> <!-- Community_UI(failed) -->
+  <test thread-count="5" name="Bulk_upload_validation_file_type(failed)">
+    <classes>
+      <class name="BulkInviteValidationtwo">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="bulkInvite_URL_FileTypeValidation"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- BulkInviteValidationtwo -->
+    </classes>
+  </test> <!-- Bulk_upload_validation_file_type(failed) -->
+  <test thread-count="5" name="Settings_UI(failed)">
+    <classes>
+      <class name="SettingsUI">
+        <methods>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextFontFamily"/>
+          <include name="tearDown"/>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextColor"/>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextFontSize"/>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextFontWeight"/>
+          <include name="loginCS"/>
+        </methods>
+      </class> <!-- SettingsUI -->
+    </classes>
+  </test> <!-- Settings_UI(failed) -->
+  <test thread-count="5" name="Category_filter(failed)">
+    <classes>
+      <class name="CategoryFilter">
+        <methods>
+          <include name="filterPostByCategory"/>
+          <include name="close_browser"/>
+          <include name="launchbrowser"/>
+          <include name="editCategoryFilter"/>
+          <include name="addCategoryNew"/>
+        </methods>
+      </class> <!-- CategoryFilter -->
+    </classes>
+  </test> <!-- Category_filter(failed) -->
+  <test thread-count="5" name="Invite_SellerMemberSubcompanyShare(failed)">
+    <classes>
+      <class name="InviteSellerMemberSubcompanyShare">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="close_browser"/>
+          <include name="invite_URL"/>
+        </methods>
+      </class> <!-- InviteSellerMemberSubcompanyShare -->
+    </classes>
+  </test> <!-- Invite_SellerMemberSubcompanyShare(failed) -->
+  <test thread-count="5" name="Invite_SellerAdminSubcompanyShare(failed)">
+    <classes>
+      <class name="InviteSellerAdminSubcompanyShare">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="invite_URL"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- InviteSellerAdminSubcompanyShare -->
+    </classes>
+  </test> <!-- Invite_SellerAdminSubcompanyShare(failed) -->
+</suite> <!-- Failed suite [Clientshare] -->

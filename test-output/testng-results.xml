@@ -1,0 +1,2162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="19" ignored="0" total="177" passed="158">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Clientshare" duration-ms="5780543" started-at="2018-07-02T06:01:25Z" finished-at="2018-07-02T07:37:45Z">
+    <groups>
+    </groups>
+    <test name="Account" duration-ms="147916" started-at="2018-07-02T06:01:25Z" finished-at="2018-07-02T06:03:53Z">
+      <class name="Account">
+        <test-method status="PASS" signature="Lauchbrowser()[pri:0, instance:Account@48503868]" name="Lauchbrowser" is-config="true" duration-ms="16857" started-at="2018-07-02T06:01:25Z" finished-at="2018-07-02T06:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lauchbrowser -->
+        <test-method status="PASS" signature="accountLogin()[pri:0, instance:Account@48503868]" name="accountLogin" duration-ms="44112" started-at="2018-07-02T06:01:41Z" finished-at="2018-07-02T06:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method status="PASS" signature="accountPassword()[pri:1, instance:Account@48503868]" name="accountPassword" duration-ms="22581" started-at="2018-07-02T06:02:26Z" finished-at="2018-07-02T06:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPassword -->
+        <test-method status="PASS" signature="resetPassword()[pri:3, instance:Account@48503868]" name="resetPassword" duration-ms="16090" started-at="2018-07-02T06:02:48Z" finished-at="2018-07-02T06:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method status="PASS" signature="disable_MyAccount()[pri:4, instance:Account@48503868]" name="disable_MyAccount" duration-ms="45151" started-at="2018-07-02T06:03:04Z" finished-at="2018-07-02T06:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disable_MyAccount -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Account@48503868]" name="close_browser" is-config="true" duration-ms="3099" started-at="2018-07-02T06:03:49Z" finished-at="2018-07-02T06:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Account -->
+    </test> <!-- Account -->
+    <test name="Analytics_CS" duration-ms="628214" started-at="2018-07-02T06:03:53Z" finished-at="2018-07-02T06:14:21Z">
+      <class name="AnalyticsCS">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:AnalyticsCS@11438d26]" name="launchbrowser" is-config="true" duration-ms="13340" started-at="2018-07-02T06:03:53Z" finished-at="2018-07-02T06:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageCS()[pri:0, instance:AnalyticsCS@11438d26]" name="homepageCS" duration-ms="44895" started-at="2018-07-02T06:04:06Z" finished-at="2018-07-02T06:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageCS -->
+        <test-method status="PASS" signature="switchShare()[pri:1, instance:AnalyticsCS@11438d26]" name="switchShare" duration-ms="61076" started-at="2018-07-02T06:04:51Z" finished-at="2018-07-02T06:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchShare -->
+        <test-method status="PASS" signature="analytics_landing_Page()[pri:2, instance:AnalyticsCS@11438d26]" name="analytics_landing_Page" duration-ms="70976" started-at="2018-07-02T06:05:52Z" finished-at="2018-07-02T06:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analytics_landing_Page -->
+        <test-method status="PASS" signature="analytics_Filter_MonthYear()[pri:3, instance:AnalyticsCS@11438d26]" name="analytics_Filter_MonthYear" duration-ms="175983" started-at="2018-07-02T06:07:03Z" finished-at="2018-07-02T06:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analytics_Filter_MonthYear -->
+        <test-method status="PASS" signature="analytics_SelectAllShare_Graphs()[pri:4, instance:AnalyticsCS@11438d26]" name="analytics_SelectAllShare_Graphs" duration-ms="147804" started-at="2018-07-02T06:09:59Z" finished-at="2018-07-02T06:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analytics_SelectAllShare_Graphs -->
+        <test-method status="PASS" signature="analytics_DownloadXSLX()[pri:5, instance:AnalyticsCS@11438d26]" name="analytics_DownloadXSLX" duration-ms="66761" started-at="2018-07-02T06:12:27Z" finished-at="2018-07-02T06:13:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analytics_DownloadXSLX -->
+        <test-method status="PASS" signature="analytics_DownloadPDF()[pri:6, instance:AnalyticsCS@11438d26]" name="analytics_DownloadPDF" duration-ms="43275" started-at="2018-07-02T06:13:33Z" finished-at="2018-07-02T06:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- analytics_DownloadPDF -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:AnalyticsCS@11438d26]" name="close_browser" is-config="true" duration-ms="4093" started-at="2018-07-02T06:14:17Z" finished-at="2018-07-02T06:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- AnalyticsCS -->
+    </test> <!-- Analytics_CS -->
+    <test name="Files_module" duration-ms="179488" started-at="2018-07-02T06:14:21Z" finished-at="2018-07-02T06:17:20Z">
+      <class name="FilesFilter">
+        <test-method status="PASS" signature="Lauchbrowser()[pri:0, instance:FilesFilter@30a3107a]" name="Lauchbrowser" is-config="true" duration-ms="13562" started-at="2018-07-02T06:14:21Z" finished-at="2018-07-02T06:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lauchbrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:FilesFilter@30a3107a]" name="login" duration-ms="48502" started-at="2018-07-02T06:14:34Z" finished-at="2018-07-02T06:15:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="files()[pri:1, instance:FilesFilter@30a3107a]" name="files" duration-ms="14815" started-at="2018-07-02T06:15:23Z" finished-at="2018-07-02T06:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- files -->
+        <test-method status="PASS" signature="file_type()[pri:2, instance:FilesFilter@30a3107a]" name="file_type" duration-ms="25478" started-at="2018-07-02T06:15:38Z" finished-at="2018-07-02T06:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_type -->
+        <test-method status="PASS" signature="file_date()[pri:3, instance:FilesFilter@30a3107a]" name="file_date" duration-ms="23021" started-at="2018-07-02T06:16:03Z" finished-at="2018-07-02T06:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- file_date -->
+        <test-method status="PASS" signature="addedBy()[pri:5, instance:FilesFilter@30a3107a]" name="addedBy" duration-ms="20034" started-at="2018-07-02T06:16:26Z" finished-at="2018-07-02T06:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addedBy -->
+        <test-method status="PASS" signature="category()[pri:6, instance:FilesFilter@30a3107a]" name="category" duration-ms="15623" started-at="2018-07-02T06:16:46Z" finished-at="2018-07-02T06:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- category -->
+        <test-method status="PASS" signature="postSubject()[pri:7, instance:FilesFilter@30a3107a]" name="postSubject" duration-ms="16363" started-at="2018-07-02T06:17:02Z" finished-at="2018-07-02T06:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSubject -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:FilesFilter@30a3107a]" name="closeBrowser" is-config="true" duration-ms="2081" started-at="2018-07-02T06:17:18Z" finished-at="2018-07-02T06:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- FilesFilter -->
+    </test> <!-- Files_module -->
+    <test name="AddPost_Settings" duration-ms="100326" started-at="2018-07-02T06:17:20Z" finished-at="2018-07-02T06:19:01Z">
+      <class name="AddPostSettings">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:AddPostSettings@78e67e0a]" name="launchbrowser" is-config="true" duration-ms="13270" started-at="2018-07-02T06:17:20Z" finished-at="2018-07-02T06:17:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageCS()[pri:0, instance:AddPostSettings@78e67e0a]" name="homepageCS" duration-ms="37205" started-at="2018-07-02T06:17:34Z" finished-at="2018-07-02T06:18:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageCS -->
+        <test-method status="FAIL" signature="newPost_Minimize()[pri:2, instance:AddPostSettings@78e67e0a]" name="newPost_Minimize" duration-ms="15063" started-at="2018-07-02T06:18:11Z" finished-at="2018-07-02T06:18:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at AddPostSettings.newPost_Minimize(AddPostSettings.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPost_Minimize -->
+        <test-method status="FAIL" signature="newPost_Expand()[pri:3, instance:AddPostSettings@78e67e0a]" name="newPost_Expand" duration-ms="10049" started-at="2018-07-02T06:18:26Z" finished-at="2018-07-02T06:18:36Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at AddPostSettings.newPost_Expand(AddPostSettings.java:79)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPost_Expand -->
+        <test-method status="FAIL" signature="pin_NewPost()[pri:4, instance:AddPostSettings@78e67e0a]" name="pin_NewPost" duration-ms="10076" started-at="2018-07-02T06:18:36Z" finished-at="2018-07-02T06:18:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at AddPostSettings.pin_NewPost(AddPostSettings.java:98)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pin_NewPost -->
+        <test-method status="FAIL" signature="unpin_NewPost()[pri:5, instance:AddPostSettings@78e67e0a]" name="unpin_NewPost" duration-ms="10032" started-at="2018-07-02T06:18:46Z" finished-at="2018-07-02T06:18:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img"}
+  (Session info: headless chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 9b8223fed02fcbecd191662198350844
+*** Element info: {Using=xpath, value=//*[@id="post_4ef89120-1199-4d0b-87a3-743f008ca7a4"]/div/div[1]/div[1]/div[2]/div[1]/a/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at AddPostSettings.unpin_NewPost(AddPostSettings.java:116)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unpin_NewPost -->
+        <test-method status="PASS" signature="close_Browser()[pri:0, instance:AddPostSettings@78e67e0a]" name="close_Browser" is-config="true" duration-ms="4619" started-at="2018-07-02T06:18:56Z" finished-at="2018-07-02T06:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- AddPostSettings -->
+    </test> <!-- AddPost_Settings -->
+    <test name="Community_UI" duration-ms="62923" started-at="2018-07-02T06:19:01Z" finished-at="2018-07-02T06:20:04Z">
+      <class name="CommunityUI">
+        <test-method status="PASS" signature="loginCS()[pri:0, instance:CommunityUI@2c039ac6]" name="loginCS" is-config="true" duration-ms="43906" started-at="2018-07-02T06:19:01Z" finished-at="2018-07-02T06:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCS -->
+        <test-method status="PASS" signature="openCommunity()[pri:1, instance:CommunityUI@2c039ac6]" name="openCommunity" duration-ms="13398" started-at="2018-07-02T06:19:45Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCommunity -->
+        <test-method status="PASS" signature="getCssValue_CommunityAll_TextFontSize()[pri:7, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityAll_TextFontSize" duration-ms="69" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityAll_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_CommunityAll_TextFontFamily()[pri:8, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityAll_TextFontFamily" duration-ms="27" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityAll_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_CommunityAll_TextColor()[pri:9, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityAll_TextColor" duration-ms="28" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityAll_TextColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityAll_TextFontWeight()[pri:10, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityAll_TextFontWeight" duration-ms="27" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityAll_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_CommunityAll_BackgroundColor()[pri:11, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityAll_BackgroundColor" duration-ms="93" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityAll_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_CommunitySeller_TextFontSize()[pri:12, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunitySeller_TextFontSize" duration-ms="46" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunitySeller_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_CommunitySeller_TextFontFamily()[pri:13, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunitySeller_TextFontFamily" duration-ms="38" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunitySeller_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_CommunitySeller_TextColor()[pri:14, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunitySeller_TextColor" duration-ms="31" started-at="2018-07-02T06:19:58Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunitySeller_TextColor -->
+        <test-method status="PASS" signature="getCssValue_CommunitySeller_TextFontWeight()[pri:15, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunitySeller_TextFontWeight" duration-ms="32" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunitySeller_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_CommunitySeller_BackgroundColor()[pri:16, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunitySeller_BackgroundColor" duration-ms="75" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunitySeller_BackgroundColor -->
+        <test-method status="FAIL" signature="getCssValue_CommunityBiography_TextFontSize()[pri:17, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityBiography_TextFontSize" duration-ms="26" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CommunityUI.getCssValue_CommunityBiography_TextFontSize(CommunityUI.java:158)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityBiography_TextFontSize -->
+        <test-method status="FAIL" signature="getCssValue_CommunityBiography_TextFontFamily()[pri:18, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityBiography_TextFontFamily" duration-ms="19" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CommunityUI.getCssValue_CommunityBiography_TextFontFamily(CommunityUI.java:164)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityBiography_TextFontFamily -->
+        <test-method status="FAIL" signature="getCssValue_CommunityBiography_TextFontWeight()[pri:19, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityBiography_TextFontWeight" duration-ms="17" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CommunityUI.getCssValue_CommunityBiography_TextFontWeight(CommunityUI.java:171)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityBiography_TextFontWeight -->
+        <test-method status="FAIL" signature="getCssValue_CommunityBiography_TextColor()[pri:20, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityBiography_TextColor" duration-ms="19" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CommunityUI.getCssValue_CommunityBiography_TextColor(CommunityUI.java:178)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityBiography_TextColor -->
+        <test-method status="FAIL" signature="getCssValue_CommunityBiography_BackgroundColor()[pri:21, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityBiography_BackgroundColor" duration-ms="14" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 1d8b4696bf7075b9d75cbb25f371a4eb
+*** Element info: {Using=xpath, value=/html/body/section/div[2]/div[1]/div/div/div[3]/div[1]/div[3]/div/div[1]/div[3]/p}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CommunityUI.getCssValue_CommunityBiography_BackgroundColor(CommunityUI.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityBiography_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityJobProfile_TextFontSize()[pri:22, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityJobProfile_TextFontSize" duration-ms="36" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityJobProfile_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_CommunityJobProfile_TextFontFamily()[pri:23, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityJobProfile_TextFontFamily" duration-ms="27" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityJobProfile_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_CommunityJobProfile_TextFontWeight()[pri:24, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityJobProfile_TextFontWeight" duration-ms="29" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityJobProfile_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_CommunityJobProfile_TextColor()[pri:25, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityJobProfile_TextColor" duration-ms="25" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityJobProfile_TextColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityJobProfile_BackgroundColor()[pri:26, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityJobProfile_BackgroundColor" duration-ms="63" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityJobProfile_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityComapanyName_TextFontSize()[pri:27, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityComapanyName_TextFontSize" duration-ms="49" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityComapanyName_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_CommunityComapanyName_TextFontFamily()[pri:28, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityComapanyName_TextFontFamily" duration-ms="37" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityComapanyName_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_CommunityComapanyName_TextFontWeight()[pri:29, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityComapanyName_TextFontWeight" duration-ms="37" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityComapanyName_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_CommunityComapanyName_TextColor()[pri:30, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityComapanyName_TextColor" duration-ms="26" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityComapanyName_TextColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityComapanyName_BackgroundColor()[pri:31, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityComapanyName_BackgroundColor" duration-ms="66" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityComapanyName_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityNameUser_TextFontSize()[pri:32, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityNameUser_TextFontSize" duration-ms="45" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityNameUser_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_CommunityNameUser_TextFontFamily()[pri:33, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityNameUser_TextFontFamily" duration-ms="37" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityNameUser_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_CommunityNameUser_TextFontWeight()[pri:34, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityNameUser_TextFontWeight" duration-ms="31" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityNameUser_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_CommunityNameUser_TextColor()[pri:35, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityNameUser_TextColor" duration-ms="28" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityNameUser_TextColor -->
+        <test-method status="PASS" signature="getCssValue_CommunityNameUser_BackgroundColor()[pri:36, instance:CommunityUI@2c039ac6]" name="getCssValue_CommunityNameUser_BackgroundColor" duration-ms="81" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_CommunityNameUser_BackgroundColor -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CommunityUI@2c039ac6]" name="tearDown" is-config="true" duration-ms="4402" started-at="2018-07-02T06:19:59Z" finished-at="2018-07-02T06:20:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CommunityUI -->
+    </test> <!-- Community_UI -->
+    <test name="Analytics_UI" duration-ms="70557" started-at="2018-07-02T06:20:04Z" finished-at="2018-07-02T06:21:14Z">
+      <class name="AnalyticsUI">
+        <test-method status="PASS" signature="loginCS()[pri:0, instance:AnalyticsUI@23d2a7e8]" name="loginCS" is-config="true" duration-ms="44747" started-at="2018-07-02T06:20:04Z" finished-at="2018-07-02T06:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCS -->
+        <test-method status="PASS" signature="openAnalytic()[pri:1, instance:AnalyticsUI@23d2a7e8]" name="openAnalytic" duration-ms="20370" started-at="2018-07-02T06:20:49Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAnalytic -->
+        <test-method status="PASS" signature="getCssValue_AnalyticLink_TextFontSize()[pri:2, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticLink_TextFontSize" duration-ms="32" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticLink_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticLink_TextFontFamily()[pri:3, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticLink_TextFontFamily" duration-ms="34" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticLink_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticLink_TextColor()[pri:4, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticLink_TextColor" duration-ms="46" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticLink_TextColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsLink_BackgroundColor()[pri:5, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsLink_BackgroundColor" duration-ms="128" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsLink_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsSelectCS_TextFontSize()[pri:6, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsSelectCS_TextFontSize" duration-ms="57" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsSelectCS_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticSelectCS_TextFontFamily()[pri:7, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticSelectCS_TextFontFamily" duration-ms="51" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticSelectCS_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticSelectCS_TextFontWeight()[pri:8, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticSelectCS_TextFontWeight" duration-ms="49" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticSelectCS_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsSelectCS_TextColor()[pri:9, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsSelectCS_TextColor" duration-ms="82" started-at="2018-07-02T06:21:09Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsSelectCS_TextColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsPanelCS_TextFontSize()[pri:10, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsPanelCS_TextFontSize" duration-ms="47" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsPanelCS_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticPanelCS_TextFontFamily()[pri:11, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticPanelCS_TextFontFamily" duration-ms="35" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticPanelCS_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsPanelCS_TextColor()[pri:12, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsPanelCS_TextColor" duration-ms="36" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsPanelCS_TextColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticPanelCS_TextFontWeight()[pri:13, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticPanelCS_TextFontWeight" duration-ms="33" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticPanelCS_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsYearFilter_TextFontSize()[pri:14, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsYearFilter_TextFontSize" duration-ms="41" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsYearFilter_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticYearFilter_TextFontFamily()[pri:15, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticYearFilter_TextFontFamily" duration-ms="23" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticYearFilter_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticYearFilter_TextColor()[pri:16, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticYearFilter_TextColor" duration-ms="31" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticYearFilter_TextColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticYearFilter_TextFontWeight()[pri:17, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticYearFilter_TextFontWeight" duration-ms="72" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticYearFilter_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_AnalyticsMonthFilter_TextFontSize()[pri:18, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticsMonthFilter_TextFontSize" duration-ms="49" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticsMonthFilter_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticMonthFilter_TextFontFamily()[pri:19, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticMonthFilter_TextFontFamily" duration-ms="45" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticMonthFilter_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticMonthFilter_TextColor()[pri:20, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticMonthFilter_TextColor" duration-ms="47" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticMonthFilter_TextColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticMonthFilter_TextFontWeight()[pri:21, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticMonthFilter_TextFontWeight" duration-ms="52" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticMonthFilter_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_AnalticDownloadButton_TextFontSize()[pri:22, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalticDownloadButton_TextFontSize" duration-ms="160" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalticDownloadButton_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticDownloadButton_TextFontFamily()[pri:23, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticDownloadButton_TextFontFamily" duration-ms="47" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticDownloadButton_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticDownloadButton_TextColor()[pri:24, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticDownloadButton_TextColor" duration-ms="47" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticDownloadButton_TextColor -->
+        <test-method status="PASS" signature="getCssvalue_AnalyticDownloadButton_BackgroundColor()[pri:25, instance:AnalyticsUI@23d2a7e8]" name="getCssvalue_AnalyticDownloadButton_BackgroundColor" duration-ms="36" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_AnalyticDownloadButton_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_AnalyticButtonFontWeight()[pri:26, instance:AnalyticsUI@23d2a7e8]" name="getCssValue_AnalyticButtonFontWeight" duration-ms="32" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticButtonFontWeight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AnalyticsUI@23d2a7e8]" name="tearDown" is-config="true" duration-ms="4104" started-at="2018-07-02T06:21:10Z" finished-at="2018-07-02T06:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AnalyticsUI -->
+    </test> <!-- Analytics_UI -->
+    <test name="Bulk_upload" duration-ms="71255" started-at="2018-07-02T06:21:15Z" finished-at="2018-07-02T06:22:26Z">
+      <class name="BulkUpload">
+        <test-method status="PASS" signature="Lauchbrowser()[pri:0, instance:BulkUpload@60285225]" name="Lauchbrowser" is-config="true" duration-ms="3205" started-at="2018-07-02T06:21:15Z" finished-at="2018-07-02T06:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lauchbrowser -->
+        <test-method status="PASS" signature="bulkUploadLogin()[pri:0, instance:BulkUpload@60285225]" name="bulkUploadLogin" duration-ms="28462" started-at="2018-07-02T06:21:18Z" finished-at="2018-07-02T06:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkUploadLogin -->
+        <test-method status="PASS" signature="bulkInvite_settings()[pri:8, instance:BulkUpload@60285225]" name="bulkInvite_settings" duration-ms="34416" started-at="2018-07-02T06:21:46Z" finished-at="2018-07-02T06:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkInvite_settings -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:BulkUpload@60285225]" name="close_browser" is-config="true" duration-ms="5086" started-at="2018-07-02T06:22:21Z" finished-at="2018-07-02T06:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- BulkUpload -->
+    </test> <!-- Bulk_upload -->
+    <test name="Bulk_upload_validation_records2000" duration-ms="163843" started-at="2018-07-02T06:22:26Z" finished-at="2018-07-02T06:25:10Z">
+      <class name="BulkUploadValidationOne">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:BulkUploadValidationOne@25af5db5]" name="launchbrowser" is-config="true" duration-ms="13221" started-at="2018-07-02T06:22:26Z" finished-at="2018-07-02T06:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:BulkUploadValidationOne@25af5db5]" name="Login" duration-ms="47066" started-at="2018-07-02T06:22:39Z" finished-at="2018-07-02T06:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="bulkInvite_URL2000Validation()[pri:3, instance:BulkUploadValidationOne@25af5db5]" name="bulkInvite_URL2000Validation" duration-ms="99344" started-at="2018-07-02T06:23:26Z" finished-at="2018-07-02T06:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkInvite_URL2000Validation -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:BulkUploadValidationOne@25af5db5]" name="close_browser" is-config="true" duration-ms="4212" started-at="2018-07-02T06:25:05Z" finished-at="2018-07-02T06:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- BulkUploadValidationOne -->
+    </test> <!-- Bulk_upload_validation_records2000 -->
+    <test name="Bulk_upload_validation_file_type" duration-ms="145265" started-at="2018-07-02T06:25:10Z" finished-at="2018-07-02T06:27:35Z">
+      <class name="BulkInviteValidationtwo">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:BulkInviteValidationtwo@7b69c6ba]" name="launchbrowser" is-config="true" duration-ms="13329" started-at="2018-07-02T06:25:10Z" finished-at="2018-07-02T06:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="accountLogin()[pri:0, instance:BulkInviteValidationtwo@7b69c6ba]" name="accountLogin" duration-ms="41725" started-at="2018-07-02T06:25:23Z" finished-at="2018-07-02T06:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLogin -->
+        <test-method status="FAIL" signature="bulkInvite_URL_FileTypeValidation()[pri:4, instance:BulkInviteValidationtwo@7b69c6ba]" name="bulkInvite_URL_FileTypeValidation" duration-ms="84090" started-at="2018-07-02T06:26:05Z" finished-at="2018-07-02T06:27:29Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[Cannot run program "C:\Autoit\bulkupload2008.exe": CreateProcess error=2, The system cannot find the file specified]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: Cannot run program "C:\Autoit\bulkupload2008.exe": CreateProcess error=2, The system cannot find the file specified
+at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+at java.lang.Runtime.exec(Runtime.java:620)
+at java.lang.Runtime.exec(Runtime.java:450)
+at java.lang.Runtime.exec(Runtime.java:347)
+at BulkInviteValidationtwo.bulkInvite_URL_FileTypeValidation(BulkInviteValidationtwo.java:66)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+at java.lang.ProcessImpl.create(Native Method)
+at java.lang.ProcessImpl.<init>(ProcessImpl.java:386)
+at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkInvite_URL_FileTypeValidation -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:BulkInviteValidationtwo@7b69c6ba]" name="close_browser" is-config="true" duration-ms="6120" started-at="2018-07-02T06:27:29Z" finished-at="2018-07-02T06:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- BulkInviteValidationtwo -->
+    </test> <!-- Bulk_upload_validation_file_type -->
+    <test name="Bulk_Invite_URL" duration-ms="298557" started-at="2018-07-02T06:27:35Z" finished-at="2018-07-02T06:32:34Z">
+      <class name="BulkInviteURL">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:BulkInviteURL@77ec78b9]" name="launchbrowser" is-config="true" duration-ms="15148" started-at="2018-07-02T06:27:35Z" finished-at="2018-07-02T06:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageCS()[pri:0, instance:BulkInviteURL@77ec78b9]" name="homepageCS" duration-ms="65184" started-at="2018-07-02T06:27:50Z" finished-at="2018-07-02T06:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageCS -->
+        <test-method status="PASS" signature="switchShare()[pri:1, instance:BulkInviteURL@77ec78b9]" name="switchShare" duration-ms="65008" started-at="2018-07-02T06:28:55Z" finished-at="2018-07-02T06:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchShare -->
+        <test-method status="PASS" signature="bulkInvite_URL()[pri:2, instance:BulkInviteURL@77ec78b9]" name="bulkInvite_URL" duration-ms="147093" started-at="2018-07-02T06:30:00Z" finished-at="2018-07-02T06:32:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bulkInvite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:BulkInviteURL@77ec78b9]" name="close_browser" is-config="true" duration-ms="6124" started-at="2018-07-02T06:32:27Z" finished-at="2018-07-02T06:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- BulkInviteURL -->
+    </test> <!-- Bulk_Invite_URL -->
+    <test name="Settings_UI" duration-ms="127782" started-at="2018-07-02T06:32:34Z" finished-at="2018-07-02T06:34:41Z">
+      <class name="SettingsUI">
+        <test-method status="PASS" signature="loginCS()[pri:0, instance:SettingsUI@ed9d034]" name="loginCS" is-config="true" duration-ms="54793" started-at="2018-07-02T06:32:34Z" finished-at="2018-07-02T06:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCS -->
+        <test-method status="PASS" signature="openSettings()[pri:1, instance:SettingsUI@ed9d034]" name="openSettings" duration-ms="48132" started-at="2018-07-02T06:33:28Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSettings -->
+        <test-method status="PASS" signature="getCssValue_SetttingDomainLink_TextFontSize()[pri:2, instance:SettingsUI@ed9d034]" name="getCssValue_SetttingDomainLink_TextFontSize" duration-ms="116" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SetttingDomainLink_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_AnalyticLink_TextFontFamily()[pri:3, instance:SettingsUI@ed9d034]" name="getCssValue_AnalyticLink_TextFontFamily" duration-ms="79" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticLink_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_AnalyticLink_TextColor()[pri:4, instance:SettingsUI@ed9d034]" name="getCssValue_AnalyticLink_TextColor" duration-ms="82" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_AnalyticLink_TextColor -->
+        <test-method status="PASS" signature="getCssValue_settingsLink_BackgroundColor()[pri:5, instance:SettingsUI@ed9d034]" name="getCssValue_settingsLink_BackgroundColor" duration-ms="141" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_settingsLink_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingDomainMgmtSaveButton_TextFontSize()[pri:6, instance:SettingsUI@ed9d034]" name="getCssValue_SettingDomainMgmtSaveButton_TextFontSize" duration-ms="119" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingDomainMgmtSaveButton_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingDomainMgmtSaveButton_TextFontFamily()[pri:7, instance:SettingsUI@ed9d034]" name="getCssValue_SettingDomainMgmtSaveButton_TextFontFamily" duration-ms="39" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingDomainMgmtSaveButton_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingDomainMgmtSaveButton_TextFontWeight()[pri:8, instance:SettingsUI@ed9d034]" name="getCssValue_SettingDomainMgmtSaveButton_TextFontWeight" duration-ms="43" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingDomainMgmtSaveButton_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingDomainMgmtSaveButton_TextColor()[pri:9, instance:SettingsUI@ed9d034]" name="getCssValue_SettingDomainMgmtSaveButton_TextColor" duration-ms="60" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingDomainMgmtSaveButton_TextColor -->
+        <test-method status="PASS" signature="getCssValue_SettingFeedbackParagraphText_TextFontSize()[pri:10, instance:SettingsUI@ed9d034]" name="getCssValue_SettingFeedbackParagraphText_TextFontSize" duration-ms="236" started-at="2018-07-02T06:34:17Z" finished-at="2018-07-02T06:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingFeedbackParagraphText_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingFeedbackParagraphText()[pri:11, instance:SettingsUI@ed9d034]" name="getCssValue_SettingFeedbackParagraphText" duration-ms="61" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingFeedbackParagraphText -->
+        <test-method status="PASS" signature="getCssValue_SettingFeedbackParagraphText_TextColor()[pri:12, instance:SettingsUI@ed9d034]" name="getCssValue_SettingFeedbackParagraphText_TextColor" duration-ms="56" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingFeedbackParagraphText_TextColor -->
+        <test-method status="PASS" signature="getCssValue_SettingFeedbackparagraphText_TextFontWeight()[pri:13, instance:SettingsUI@ed9d034]" name="getCssValue_SettingFeedbackparagraphText_TextFontWeight" duration-ms="75" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingFeedbackparagraphText_TextFontWeight -->
+        <test-method status="FAIL" signature="getCssValue_SettingfeedbackReminderlabelText_TextFontSize()[pri:14, instance:SettingsUI@ed9d034]" name="getCssValue_SettingfeedbackReminderlabelText_TextFontSize" duration-ms="49" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at SettingsUI.getCssValue_SettingfeedbackReminderlabelText_TextFontSize(SettingsUI.java:163)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingfeedbackReminderlabelText_TextFontSize -->
+        <test-method status="FAIL" signature="getCssValue_SettingfeedbackReminderlabelText_TextFontFamily()[pri:15, instance:SettingsUI@ed9d034]" name="getCssValue_SettingfeedbackReminderlabelText_TextFontFamily" duration-ms="34" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at SettingsUI.getCssValue_SettingfeedbackReminderlabelText_TextFontFamily(SettingsUI.java:170)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingfeedbackReminderlabelText_TextFontFamily -->
+        <test-method status="FAIL" signature="getCssValue_SettingfeedbackReminderlabelText_TextColor()[pri:16, instance:SettingsUI@ed9d034]" name="getCssValue_SettingfeedbackReminderlabelText_TextColor" duration-ms="27" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at SettingsUI.getCssValue_SettingfeedbackReminderlabelText_TextColor(SettingsUI.java:178)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingfeedbackReminderlabelText_TextColor -->
+        <test-method status="FAIL" signature="getCssValue_SettingfeedbackReminderlabelText_TextFontWeight()[pri:17, instance:SettingsUI@ed9d034]" name="getCssValue_SettingfeedbackReminderlabelText_TextFontWeight" duration-ms="30" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:18Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at SettingsUI.getCssValue_SettingfeedbackReminderlabelText_TextFontWeight(SettingsUI.java:185)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingfeedbackReminderlabelText_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountformLabelHeading_TextFontSize()[pri:18, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountformLabelHeading_TextFontSize" duration-ms="5264" started-at="2018-07-02T06:34:18Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountformLabelHeading_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountformLabelHeading_TextFontFamily()[pri:19, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountformLabelHeading_TextFontFamily" duration-ms="34" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountformLabelHeading_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountformLabelHeading_TextColor()[pri:20, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountformLabelHeading_TextColor" duration-ms="39" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountformLabelHeading_TextColor -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountformLabelHeading_TextFontWeight()[pri:21, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountformLabelHeading_TextFontWeight" duration-ms="45" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountformLabelHeading_TextFontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldLabel_TextFontSize()[pri:22, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldLabel_TextFontSize" duration-ms="92" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldLabel_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldLabel__TextFontFamily()[pri:23, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldLabel__TextFontFamily" duration-ms="36" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldLabel__TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldLabel__TextColor()[pri:24, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldLabel__TextColor" duration-ms="58" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldLabel__TextColor -->
+        <test-method status="PASS" signature="getCssvalue_SettingAccountTextfieldLabel__BackgroundColor()[pri:25, instance:SettingsUI@ed9d034]" name="getCssvalue_SettingAccountTextfieldLabel__BackgroundColor" duration-ms="60" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_SettingAccountTextfieldLabel__BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldLabel_FontWeight()[pri:26, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldLabel_FontWeight" duration-ms="57" started-at="2018-07-02T06:34:23Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldLabel_FontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldText_TextFontSize()[pri:27, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldText_TextFontSize" duration-ms="79" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldText_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldText_TextFontFamily()[pri:28, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldText_TextFontFamily" duration-ms="40" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldText_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldText_TextColor()[pri:29, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldText_TextColor" duration-ms="39" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldText_TextColor -->
+        <test-method status="PASS" signature="getCssvalue_SettingAccountTextfieldText_BackgroundColor()[pri:30, instance:SettingsUI@ed9d034]" name="getCssvalue_SettingAccountTextfieldText_BackgroundColor" duration-ms="40" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_SettingAccountTextfieldText_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountTextfieldText_FontWeight()[pri:31, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountTextfieldText_FontWeight" duration-ms="63" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountTextfieldText_FontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountDMAText_TextFontSize()[pri:32, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountDMAText_TextFontSize" duration-ms="69" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountDMAText_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountDMAText_TextFontFamily()[pri:33, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountDMAText_TextFontFamily" duration-ms="35" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountDMAText_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountDMAText_TextColor()[pri:34, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountDMAText_TextColor" duration-ms="43" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountDMAText_TextColor -->
+        <test-method status="PASS" signature="getCssvalue_SettingAccountDMAText_BackgroundColor()[pri:35, instance:SettingsUI@ed9d034]" name="getCssvalue_SettingAccountDMAText_BackgroundColor" duration-ms="39" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_SettingAccountDMAText_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountDMAText_FontWeight()[pri:36, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountDMAText_FontWeight" duration-ms="39" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountDMAText_FontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountBulkUploadButton_TextFontSize()[pri:37, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountBulkUploadButton_TextFontSize" duration-ms="5225" started-at="2018-07-02T06:34:24Z" finished-at="2018-07-02T06:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountBulkUploadButton_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountBulkUploadButton_TextFontFamily()[pri:38, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountBulkUploadButton_TextFontFamily" duration-ms="60" started-at="2018-07-02T06:34:29Z" finished-at="2018-07-02T06:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountBulkUploadButton_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountBulkUploadButton_TextColor()[pri:39, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountBulkUploadButton_TextColor" duration-ms="43" started-at="2018-07-02T06:34:29Z" finished-at="2018-07-02T06:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountBulkUploadButton_TextColor -->
+        <test-method status="PASS" signature="getCssvalue_SettingAccountBulkUploadButton_BackgroundColor()[pri:40, instance:SettingsUI@ed9d034]" name="getCssvalue_SettingAccountBulkUploadButton_BackgroundColor" duration-ms="58" started-at="2018-07-02T06:34:29Z" finished-at="2018-07-02T06:34:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_SettingAccountBulkUploadButton_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingAccountBulkUploadButton_FontWeight()[pri:41, instance:SettingsUI@ed9d034]" name="getCssValue_SettingAccountBulkUploadButton_FontWeight" duration-ms="89" started-at="2018-07-02T06:34:29Z" finished-at="2018-07-02T06:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingAccountBulkUploadButton_FontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingPermissionCheckLabel_TextFontSize()[pri:42, instance:SettingsUI@ed9d034]" name="getCssValue_SettingPermissionCheckLabel_TextFontSize" duration-ms="5203" started-at="2018-07-02T06:34:30Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingPermissionCheckLabel_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingPermissionCheckLabel_TextFontFamily()[pri:43, instance:SettingsUI@ed9d034]" name="getCssValue_SettingPermissionCheckLabel_TextFontFamily" duration-ms="35" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingPermissionCheckLabel_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingPermissionCheckLabel_TextColor()[pri:44, instance:SettingsUI@ed9d034]" name="getCssValue_SettingPermissionCheckLabel_TextColor" duration-ms="61" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingPermissionCheckLabel_TextColor -->
+        <test-method status="PASS" signature="getCssvalue_SettingPermissionCheckLabel_BackgroundColor()[pri:45, instance:SettingsUI@ed9d034]" name="getCssvalue_SettingPermissionCheckLabel_BackgroundColor" duration-ms="37" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_SettingPermissionCheckLabel_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingPermissionCheckLabel_FontWeight()[pri:46, instance:SettingsUI@ed9d034]" name="getCssValue_SettingPermissionCheckLabel_FontWeight" duration-ms="41" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingPermissionCheckLabel_FontWeight -->
+        <test-method status="PASS" signature="getCssValue_SettingEmailNotification_TextFontSize()[pri:47, instance:SettingsUI@ed9d034]" name="getCssValue_SettingEmailNotification_TextFontSize" duration-ms="244" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingEmailNotification_TextFontSize -->
+        <test-method status="PASS" signature="getCssValue_SettingEmailNotification_TextFontFamily()[pri:48, instance:SettingsUI@ed9d034]" name="getCssValue_SettingEmailNotification_TextFontFamily" duration-ms="78" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingEmailNotification_TextFontFamily -->
+        <test-method status="PASS" signature="getCssValue_SettingEmailNotification_TextColor()[pri:49, instance:SettingsUI@ed9d034]" name="getCssValue_SettingEmailNotification_TextColor" duration-ms="41" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingEmailNotification_TextColor -->
+        <test-method status="PASS" signature="getCssvalue_SettingEmailNotification_BackgroundColor()[pri:50, instance:SettingsUI@ed9d034]" name="getCssvalue_SettingEmailNotification_BackgroundColor" duration-ms="59" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssvalue_SettingEmailNotification_BackgroundColor -->
+        <test-method status="PASS" signature="getCssValue_SettingEmailNotification_FontWeight()[pri:51, instance:SettingsUI@ed9d034]" name="getCssValue_SettingEmailNotification_FontWeight" duration-ms="38" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue_SettingEmailNotification_FontWeight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SettingsUI@ed9d034]" name="tearDown" is-config="true" duration-ms="6073" started-at="2018-07-02T06:34:35Z" finished-at="2018-07-02T06:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SettingsUI -->
+    </test> <!-- Settings_UI -->
+    <test name="Category_filter" duration-ms="229984" started-at="2018-07-02T06:34:41Z" finished-at="2018-07-02T06:38:31Z">
+      <class name="CategoryFilter">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:CategoryFilter@11758f2a]" name="launchbrowser" is-config="true" duration-ms="13449" started-at="2018-07-02T06:34:41Z" finished-at="2018-07-02T06:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageCS()[pri:0, instance:CategoryFilter@11758f2a]" name="homepageCS" duration-ms="36337" started-at="2018-07-02T06:34:55Z" finished-at="2018-07-02T06:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageCS -->
+        <test-method status="PASS" signature="switchShare()[pri:1, instance:CategoryFilter@11758f2a]" name="switchShare" duration-ms="64711" started-at="2018-07-02T06:35:31Z" finished-at="2018-07-02T06:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchShare -->
+        <test-method status="PASS" signature="categoryFilterSample()[pri:2, instance:CategoryFilter@11758f2a]" name="categoryFilterSample" duration-ms="33339" started-at="2018-07-02T06:36:36Z" finished-at="2018-07-02T06:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- categoryFilterSample -->
+        <test-method status="FAIL" signature="filterPostByCategory()[pri:3, instance:CategoryFilter@11758f2a]" name="filterPostByCategory" duration-ms="38763" started-at="2018-07-02T06:37:09Z" finished-at="2018-07-02T06:37:48Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tour4"]/ul/li[3]/a/img"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: cef3643e82094536878a6ec95ab5426f
+*** Element info: {Using=xpath, value=//*[@id="tour4"]/ul/li[3]/a/img}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="tour4"]/ul/li[3]/a/img"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: cef3643e82094536878a6ec95ab5426f
+*** Element info: {Using=xpath, value=//*[@id="tour4"]/ul/li[3]/a/img}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CategoryFilter.filterPostByCategory(CategoryFilter.java:109)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterPostByCategory -->
+        <test-method status="FAIL" signature="editCategoryFilter()[pri:4, instance:CategoryFilter@11758f2a]" name="editCategoryFilter" duration-ms="29095" started-at="2018-07-02T06:37:48Z" finished-at="2018-07-02T06:38:17Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="edit_post_category_form"]/div/ul/li[17]/input"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: cef3643e82094536878a6ec95ab5426f
+*** Element info: {Using=xpath, value=//*[@id="edit_post_category_form"]/div/ul/li[17]/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="edit_post_category_form"]/div/ul/li[17]/input"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: cef3643e82094536878a6ec95ab5426f
+*** Element info: {Using=xpath, value=//*[@id="edit_post_category_form"]/div/ul/li[17]/input}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at CategoryFilter.editCategoryFilter(CategoryFilter.java:126)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCategoryFilter -->
+        <test-method status="FAIL" signature="addCategoryNew()[pri:5, instance:CategoryFilter@11758f2a]" name="addCategoryNew" duration-ms="8187" started-at="2018-07-02T06:38:17Z" finished-at="2018-07-02T06:38:25Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <a class="edit-cat" href="#!" data-toggle="modal" data-target="#modal_category" onclick="return edit_category(event, this);" spaceid="3433aabc-d302-11e6-a1de-22000a6388db">...</a> is not clickable at point (977, 305). Other element would receive the click: <div class="modal fade custom-tile-popup modal_category in" id="modal_category" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block;">...</div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: cef3643e82094536878a6ec95ab5426f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <a class="edit-cat" href="#!" data-toggle="modal" data-target="#modal_category" onclick="return edit_category(event, this);" spaceid="3433aabc-d302-11e6-a1de-22000a6388db">...</a> is not clickable at point (977, 305). Other element would receive the click: <div class="modal fade custom-tile-popup modal_category in" id="modal_category" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: block;">...</div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:03.216Z'
+System info: host: 'DESKTOP-D5KJBUL', ip: '192.168.0.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\user\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: cef3643e82094536878a6ec95ab5426f
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at CategoryFilter.addCategoryNew(CategoryFilter.java:145)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategoryNew -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:CategoryFilter@11758f2a]" name="close_browser" is-config="true" duration-ms="6094" started-at="2018-07-02T06:38:25Z" finished-at="2018-07-02T06:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- CategoryFilter -->
+    </test> <!-- Category_filter -->
+    <test name="Invite_SellerMemberSubcompanyShare" duration-ms="343782" started-at="2018-07-02T06:38:32Z" finished-at="2018-07-02T06:44:15Z">
+      <class name="InviteSellerMemberSubcompanyShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteSellerMemberSubcompanyShare@757942a1]" name="launchbrowser" is-config="true" duration-ms="14364" started-at="2018-07-02T06:38:32Z" finished-at="2018-07-02T06:38:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageSellerMemberSubcompanyShareLogin()[pri:0, instance:InviteSellerMemberSubcompanyShare@757942a1]" name="homepageSellerMemberSubcompanyShareLogin" duration-ms="33097" started-at="2018-07-02T06:38:46Z" finished-at="2018-07-02T06:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageSellerMemberSubcompanyShareLogin -->
+        <test-method status="PASS" signature="community_InviteSellerMemberSubcompanyShare()[pri:1, instance:InviteSellerMemberSubcompanyShare@757942a1]" name="community_InviteSellerMemberSubcompanyShare" duration-ms="164816" started-at="2018-07-02T06:39:19Z" finished-at="2018-07-02T06:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_InviteSellerMemberSubcompanyShare -->
+        <test-method status="FAIL" signature="invite_URL()[pri:2, instance:InviteSellerMemberSubcompanyShare@757942a1]" name="invite_URL" duration-ms="131172" started-at="2018-07-02T06:42:04Z" finished-at="2018-07-02T06:44:15Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at InviteSellerMemberSubcompanyShare.invite_URL(InviteSellerMemberSubcompanyShare.java:182)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteSellerMemberSubcompanyShare@757942a1]" name="close_browser" is-config="true" duration-ms="331" started-at="2018-07-02T06:44:15Z" finished-at="2018-07-02T06:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteSellerMemberSubcompanyShare -->
+    </test> <!-- Invite_SellerMemberSubcompanyShare -->
+    <test name="Invite_SellerMemberNormalShare" duration-ms="404137" started-at="2018-07-02T06:44:15Z" finished-at="2018-07-02T06:51:00Z">
+      <class name="InviteSellerMemberNormalShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteSellerMemberNormalShare@b7dd107]" name="launchbrowser" is-config="true" duration-ms="13368" started-at="2018-07-02T06:44:15Z" finished-at="2018-07-02T06:44:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageLoginSellerMember()[pri:0, instance:InviteSellerMemberNormalShare@b7dd107]" name="homepageLoginSellerMember" duration-ms="53325" started-at="2018-07-02T06:44:29Z" finished-at="2018-07-02T06:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageLoginSellerMember -->
+        <test-method status="PASS" signature="community_InviteFromSellerMember()[pri:1, instance:InviteSellerMemberNormalShare@b7dd107]" name="community_InviteFromSellerMember" duration-ms="164294" started-at="2018-07-02T06:45:22Z" finished-at="2018-07-02T06:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_InviteFromSellerMember -->
+        <test-method status="PASS" signature="invite_URL()[pri:2, instance:InviteSellerMemberNormalShare@b7dd107]" name="invite_URL" duration-ms="173091" started-at="2018-07-02T06:48:06Z" finished-at="2018-07-02T06:50:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteSellerMemberNormalShare@b7dd107]" name="close_browser" is-config="true" duration-ms="51" started-at="2018-07-02T06:50:59Z" finished-at="2018-07-02T06:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteSellerMemberNormalShare -->
+    </test> <!-- Invite_SellerMemberNormalShare -->
+    <test name="Invite_SellerAdminSubcompanyShare" duration-ms="341447" started-at="2018-07-02T06:51:00Z" finished-at="2018-07-02T06:56:41Z">
+      <class name="InviteSellerAdminSubcompanyShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteSellerAdminSubcompanyShare@33723e30]" name="launchbrowser" is-config="true" duration-ms="13373" started-at="2018-07-02T06:51:00Z" finished-at="2018-07-02T06:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageSellerAdminSubcompanyShareLogin()[pri:0, instance:InviteSellerAdminSubcompanyShare@33723e30]" name="homepageSellerAdminSubcompanyShareLogin" duration-ms="33041" started-at="2018-07-02T06:51:13Z" finished-at="2018-07-02T06:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageSellerAdminSubcompanyShareLogin -->
+        <test-method status="PASS" signature="community_InviteSellerAdminSubcompanyShare()[pri:1, instance:InviteSellerAdminSubcompanyShare@33723e30]" name="community_InviteSellerAdminSubcompanyShare" duration-ms="164302" started-at="2018-07-02T06:51:46Z" finished-at="2018-07-02T06:54:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_InviteSellerAdminSubcompanyShare -->
+        <test-method status="FAIL" signature="invite_URL()[pri:2, instance:InviteSellerAdminSubcompanyShare@33723e30]" name="invite_URL" duration-ms="130611" started-at="2018-07-02T06:54:30Z" finished-at="2018-07-02T06:56:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at InviteSellerAdminSubcompanyShare.invite_URL(InviteSellerAdminSubcompanyShare.java:180)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteSellerAdminSubcompanyShare@33723e30]" name="close_browser" is-config="true" duration-ms="117" started-at="2018-07-02T06:56:41Z" finished-at="2018-07-02T06:56:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteSellerAdminSubcompanyShare -->
+    </test> <!-- Invite_SellerAdminSubcompanyShare -->
+    <test name="Invite_SellerAdminNormalShare" duration-ms="418812" started-at="2018-07-02T06:56:41Z" finished-at="2018-07-02T07:03:40Z">
+      <class name="InviteSellerAdminNormalShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteSellerAdminNormalShare@23fe1d71]" name="launchbrowser" is-config="true" duration-ms="13338" started-at="2018-07-02T06:56:41Z" finished-at="2018-07-02T06:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageSellerAdminlogin()[pri:0, instance:InviteSellerAdminNormalShare@23fe1d71]" name="homepageSellerAdminlogin" duration-ms="55699" started-at="2018-07-02T06:56:54Z" finished-at="2018-07-02T06:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageSellerAdminlogin -->
+        <test-method status="PASS" signature="Community_InviteFromSellerAdmin()[pri:1, instance:InviteSellerAdminNormalShare@23fe1d71]" name="Community_InviteFromSellerAdmin" duration-ms="164807" started-at="2018-07-02T06:57:50Z" finished-at="2018-07-02T07:00:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Community_InviteFromSellerAdmin -->
+        <test-method status="PASS" signature="invite_URL()[pri:2, instance:InviteSellerAdminNormalShare@23fe1d71]" name="invite_URL" duration-ms="184892" started-at="2018-07-02T07:00:35Z" finished-at="2018-07-02T07:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteSellerAdminNormalShare@23fe1d71]" name="close_browser" is-config="true" duration-ms="74" started-at="2018-07-02T07:03:40Z" finished-at="2018-07-02T07:03:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteSellerAdminNormalShare -->
+    </test> <!-- Invite_SellerAdminNormalShare -->
+    <test name="Invite_BuyerMemberSubcompanyShare" duration-ms="386485" started-at="2018-07-02T07:03:40Z" finished-at="2018-07-02T07:10:06Z">
+      <class name="InviteBuyerMemberSubcompanyShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteBuyerMemberSubcompanyShare@43738a82]" name="launchbrowser" is-config="true" duration-ms="13845" started-at="2018-07-02T07:03:40Z" finished-at="2018-07-02T07:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageBuyerMemberSubcompanyShareLogin()[pri:0, instance:InviteBuyerMemberSubcompanyShare@43738a82]" name="homepageBuyerMemberSubcompanyShareLogin" duration-ms="34227" started-at="2018-07-02T07:03:54Z" finished-at="2018-07-02T07:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageBuyerMemberSubcompanyShareLogin -->
+        <test-method status="PASS" signature="community_InviteBuyerMemberSubcompanyShare()[pri:1, instance:InviteBuyerMemberSubcompanyShare@43738a82]" name="community_InviteBuyerMemberSubcompanyShare" duration-ms="165445" started-at="2018-07-02T07:04:28Z" finished-at="2018-07-02T07:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_InviteBuyerMemberSubcompanyShare -->
+        <test-method status="PASS" signature="invite_URL()[pri:2, instance:InviteBuyerMemberSubcompanyShare@43738a82]" name="invite_URL" duration-ms="172917" started-at="2018-07-02T07:07:13Z" finished-at="2018-07-02T07:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteBuyerMemberSubcompanyShare@43738a82]" name="close_browser" is-config="true" duration-ms="47" started-at="2018-07-02T07:10:06Z" finished-at="2018-07-02T07:10:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteBuyerMemberSubcompanyShare -->
+    </test> <!-- Invite_BuyerMemberSubcompanyShare -->
+    <test name="Invite_BuyerMemberNormalShare" duration-ms="406482" started-at="2018-07-02T07:10:06Z" finished-at="2018-07-02T07:16:53Z">
+      <class name="InviteBuyerMemberNormalShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteBuyerMemberNormalShare@3891771e]" name="launchbrowser" is-config="true" duration-ms="13371" started-at="2018-07-02T07:10:06Z" finished-at="2018-07-02T07:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageBuyerMemberLogin()[pri:0, instance:InviteBuyerMemberNormalShare@3891771e]" name="homepageBuyerMemberLogin" duration-ms="55710" started-at="2018-07-02T07:10:20Z" finished-at="2018-07-02T07:11:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageBuyerMemberLogin -->
+        <test-method status="PASS" signature="community_InviteFromBuyerMemberNormalShare()[pri:1, instance:InviteBuyerMemberNormalShare@3891771e]" name="community_InviteFromBuyerMemberNormalShare" duration-ms="164578" started-at="2018-07-02T07:11:16Z" finished-at="2018-07-02T07:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_InviteFromBuyerMemberNormalShare -->
+        <test-method status="PASS" signature="invite_URL()[pri:2, instance:InviteBuyerMemberNormalShare@3891771e]" name="invite_URL" duration-ms="172766" started-at="2018-07-02T07:14:00Z" finished-at="2018-07-02T07:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteBuyerMemberNormalShare@3891771e]" name="close_browser" is-config="true" duration-ms="55" started-at="2018-07-02T07:16:53Z" finished-at="2018-07-02T07:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteBuyerMemberNormalShare -->
+    </test> <!-- Invite_BuyerMemberNormalShare -->
+    <test name="Invite_BuyerAdminSubcompanyShare" duration-ms="462489" started-at="2018-07-02T07:16:53Z" finished-at="2018-07-02T07:24:35Z">
+      <class name="InviteBuyerAdminSubcompanyShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteBuyerAdminSubcompanyShare@18bf3d14]" name="launchbrowser" is-config="true" duration-ms="13341" started-at="2018-07-02T07:16:53Z" finished-at="2018-07-02T07:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageBuyerAdminSubcompanyCS()[pri:0, instance:InviteBuyerAdminSubcompanyShare@18bf3d14]" name="homepageBuyerAdminSubcompanyCS" duration-ms="103169" started-at="2018-07-02T07:17:06Z" finished-at="2018-07-02T07:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageBuyerAdminSubcompanyCS -->
+        <test-method status="PASS" signature="community_InviteFromBuyerAdminSubcompanyShare()[pri:1, instance:InviteBuyerAdminSubcompanyShare@18bf3d14]" name="community_InviteFromBuyerAdminSubcompanyShare" duration-ms="167880" started-at="2018-07-02T07:18:50Z" finished-at="2018-07-02T07:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_InviteFromBuyerAdminSubcompanyShare -->
+        <test-method status="PASS" signature="invite_URL()[pri:2, instance:InviteBuyerAdminSubcompanyShare@18bf3d14]" name="invite_URL" duration-ms="178034" started-at="2018-07-02T07:21:37Z" finished-at="2018-07-02T07:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteBuyerAdminSubcompanyShare@18bf3d14]" name="close_browser" is-config="true" duration-ms="63" started-at="2018-07-02T07:24:35Z" finished-at="2018-07-02T07:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteBuyerAdminSubcompanyShare -->
+    </test> <!-- Invite_BuyerAdminSubcompanyShare -->
+    <test name="Invite_BuyerAdminNormalShare" duration-ms="469681" started-at="2018-07-02T07:24:36Z" finished-at="2018-07-02T07:32:25Z">
+      <class name="InviteBuyerAdminNormalShare">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:InviteBuyerAdminNormalShare@7276c8cd]" name="launchbrowser" is-config="true" duration-ms="13872" started-at="2018-07-02T07:24:36Z" finished-at="2018-07-02T07:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="homepageBuyerAdminLoginCS()[pri:0, instance:InviteBuyerAdminNormalShare@7276c8cd]" name="homepageBuyerAdminLoginCS" duration-ms="60382" started-at="2018-07-02T07:24:50Z" finished-at="2018-07-02T07:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageBuyerAdminLoginCS -->
+        <test-method status="PASS" signature="community_StandardInvite()[pri:1, instance:InviteBuyerAdminNormalShare@7276c8cd]" name="community_StandardInvite" duration-ms="216768" started-at="2018-07-02T07:25:50Z" finished-at="2018-07-02T07:29:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- community_StandardInvite -->
+        <test-method status="PASS" signature="invite_URL()[pri:2, instance:InviteBuyerAdminNormalShare@7276c8cd]" name="invite_URL" duration-ms="173551" started-at="2018-07-02T07:29:27Z" finished-at="2018-07-02T07:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invite_URL -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:InviteBuyerAdminNormalShare@7276c8cd]" name="close_browser" is-config="true" duration-ms="5105" started-at="2018-07-02T07:32:20Z" finished-at="2018-07-02T07:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- InviteBuyerAdminNormalShare -->
+    </test> <!-- Invite_BuyerAdminNormalShare -->
+    <test name="Quick_Links" duration-ms="93616" started-at="2018-07-02T07:32:25Z" finished-at="2018-07-02T07:33:59Z">
+      <class name="QuickLinks">
+        <test-method status="PASS" signature="Lauchbrowser()[pri:0, instance:QuickLinks@704d6e83]" name="Lauchbrowser" is-config="true" duration-ms="13057" started-at="2018-07-02T07:32:25Z" finished-at="2018-07-02T07:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lauchbrowser -->
+        <test-method status="PASS" signature="loginAdmin()[pri:1, instance:QuickLinks@704d6e83]" name="loginAdmin" duration-ms="41056" started-at="2018-07-02T07:32:39Z" finished-at="2018-07-02T07:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method status="PASS" signature="quickLinks()[pri:2, instance:QuickLinks@704d6e83]" name="quickLinks" duration-ms="35399" started-at="2018-07-02T07:33:20Z" finished-at="2018-07-02T07:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quickLinks -->
+        <test-method status="PASS" signature="close_Browser()[pri:0, instance:QuickLinks@704d6e83]" name="close_Browser" is-config="true" duration-ms="4102" started-at="2018-07-02T07:33:55Z" finished-at="2018-07-02T07:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- QuickLinks -->
+    </test> <!-- Quick_Links -->
+    <test name="Login_XSLX" duration-ms="90153" started-at="2018-07-02T07:33:59Z" finished-at="2018-07-02T07:35:29Z">
+      <class name="LoginXSLX">
+        <test-method status="PASS" signature="loginmember(java.lang.String, java.lang.String)[pri:0, instance:LoginXSLX@545997b1]" name="loginmember" duration-ms="28961" started-at="2018-07-02T07:34:00Z" data-provider="empLogin" finished-at="2018-07-02T07:34:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashishkumar@ucreate.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmember -->
+        <test-method status="PASS" signature="loginmember(java.lang.String, java.lang.String)[pri:0, instance:LoginXSLX@545997b1]" name="loginmember" duration-ms="60733" started-at="2018-07-02T07:34:29Z" data-provider="empLogin" finished-at="2018-07-02T07:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashish.nirmohi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmember -->
+      </class> <!-- LoginXSLX -->
+    </test> <!-- Login_XSLX -->
+    <test name="Login_MultipleUser" duration-ms="135864" started-at="2018-07-02T07:35:29Z" finished-at="2018-07-02T07:37:45Z">
+      <class name="LoginMultipleUser">
+        <test-method status="PASS" signature="loginmember(java.lang.String, java.lang.String)[pri:0, instance:LoginMultipleUser@df27fae]" name="loginmember" duration-ms="54263" started-at="2018-07-02T07:35:29Z" data-provider="loginthreemembers" finished-at="2018-07-02T07:36:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashish.nirmohi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmember -->
+        <test-method status="PASS" signature="loginmember(java.lang.String, java.lang.String)[pri:0, instance:LoginMultipleUser@df27fae]" name="loginmember" duration-ms="50958" started-at="2018-07-02T07:36:24Z" data-provider="loginthreemembers" finished-at="2018-07-02T07:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashishkumar@ucreate.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@Test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmember -->
+        <test-method status="PASS" signature="loginmember(java.lang.String, java.lang.String)[pri:0, instance:LoginMultipleUser@df27fae]" name="loginmember" duration-ms="30639" started-at="2018-07-02T07:37:15Z" data-provider="loginthreemembers" finished-at="2018-07-02T07:37:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sahilsharma@ucreate.co.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@Test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmember -->
+      </class> <!-- LoginMultipleUser -->
+    </test> <!-- Login_MultipleUser -->
+  </suite> <!-- Clientshare -->
+</testng-results>

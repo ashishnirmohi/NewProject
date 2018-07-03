@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Clientshare" verbose="1" parallel="none">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" /> 
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	
+	<test name="Account"> 
+	    <classes>
+	    	<class name="Account"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Analytics_CS"> 
+	    <classes>
+	    	<class name="AnalyticsCS"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Files_module"> 
+	    <classes>
+	    	<class name="FilesFilter"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="AddPost_Settings"> 
+	    <classes>
+	    	<class name="AddPostSettings"/>
+	    </classes>
+  	</test>
+  	
+	<test name="Community_UI"> 
+	    <classes>
+	    	<class name="CommunityUI"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Analytics_UI"> 
+	    <classes>
+	    	<class name="AnalyticsUI"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Bulk_upload"> 
+	    <classes>
+	    	<class name="BulkUpload"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Bulk_upload_validation_records2000"> 
+	    <classes>
+	    	<class name="BulkUploadValidationOne"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Bulk_upload_validation_file_type"> 
+	    <classes>
+	    	<class name="BulkInviteValidationtwo"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Bulk_Invite_URL"> 
+	    <classes>
+	    	<class name="BulkInviteURL"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Settings_UI"> 
+	    <classes>
+	    	<class name="SettingsUI"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Category_filter"> 
+	    <classes>
+	    	<class name="CategoryFilter"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_SellerMemberSubcompanyShare"> 
+	    <classes>
+	    	<class name="InviteSellerMemberSubcompanyShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_SellerMemberNormalShare"> 
+	    <classes>
+	    	<class name="InviteSellerMemberNormalShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_SellerAdminSubcompanyShare"> 
+	    <classes>
+	    	<class name="InviteSellerAdminSubcompanyShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_SellerAdminNormalShare"> 
+	    <classes>
+	    	<class name="InviteSellerAdminNormalShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_BuyerMemberSubcompanyShare"> 
+	    <classes>
+	    	<class name="InviteBuyerMemberSubcompanyShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_BuyerMemberNormalShare"> 
+	    <classes>
+	    	<class name="InviteBuyerMemberNormalShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_BuyerAdminSubcompanyShare"> 
+	    <classes>
+	    	<class name="InviteBuyerAdminSubcompanyShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Invite_BuyerAdminNormalShare"> 
+	    <classes>
+	    	<class name="InviteBuyerAdminNormalShare"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Quick_Links"> 
+	    <classes>
+	    	<class name="QuickLinks"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Login_XSLX"> 
+	    <classes>
+	    	<class name="LoginXSLX"/>
+	    </classes>
+  	</test>
+  	
+  	<test name="Login_MultipleUser"> 
+	    <classes>
+	    	<class name="LoginMultipleUser"/>
+	    </classes>
+  	</test>
+  	</suite>

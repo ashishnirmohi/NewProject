@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Invite_SellerMemberNormalShare"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="390.710">
+  <properties />
+  
+  
+            <testcase name="community_InviteFromSellerMember" time="164.294" classname="InviteSellerMemberNormalShare" />
+                <testcase name="homepageLoginSellerMember" time="53.325" classname="InviteSellerMemberNormalShare" />
+                <testcase name="invite_URL" time="173.091" classname="InviteSellerMemberNormalShare" />
+      
+</testsuite>

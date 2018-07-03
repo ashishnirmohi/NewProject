@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login_XSLX"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="89.694">
+  <properties />
+  
+  
+            <testcase name="loginmember" time="60.733" classname="LoginXSLX" />
+                <testcase name="loginmember" time="28.961" classname="LoginXSLX" />
+      
+</testsuite>

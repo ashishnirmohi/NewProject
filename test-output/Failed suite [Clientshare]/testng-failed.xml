@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Clientshare]]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Files_module(failed)(failed)">
+    <classes>
+      <class name="FilesFilter">
+        <methods>
+          <include name="addedBy"/>
+          <include name="file_type"/>
+          <include name="postSubject"/>
+          <include name="Lauchbrowser"/>
+          <include name="file_date"/>
+          <include name="category"/>
+          <include name="files"/>
+        </methods>
+      </class> <!-- FilesFilter -->
+    </classes>
+  </test> <!-- Files_module(failed)(failed) -->
+  <test thread-count="5" name="Bulk_upload_validation_file_type(failed)(failed)">
+    <classes>
+      <class name="BulkInviteValidationtwo">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="bulkInvite_URL_FileTypeValidation"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- BulkInviteValidationtwo -->
+    </classes>
+  </test> <!-- Bulk_upload_validation_file_type(failed)(failed) -->
+  <test thread-count="5" name="Bulk_Invite_URL(failed)(failed)">
+    <classes>
+      <class name="BulkInviteURL">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="bulkInvite_URL"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- BulkInviteURL -->
+    </classes>
+  </test> <!-- Bulk_Invite_URL(failed)(failed) -->
+  <test thread-count="5" name="Settings_UI(failed)(failed)">
+    <classes>
+      <class name="SettingsUI">
+        <methods>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextFontFamily"/>
+          <include name="tearDown"/>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextColor"/>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextFontSize"/>
+          <include name="getCssValue_SettingfeedbackReminderlabelText_TextFontWeight"/>
+          <include name="loginCS"/>
+        </methods>
+      </class> <!-- SettingsUI -->
+    </classes>
+  </test> <!-- Settings_UI(failed)(failed) -->
+  <test thread-count="5" name="Category_filter(failed)(failed)">
+    <classes>
+      <class name="CategoryFilter">
+        <methods>
+          <include name="filterPostByCategory"/>
+          <include name="close_browser"/>
+          <include name="launchbrowser"/>
+          <include name="addCategoryNew"/>
+        </methods>
+      </class> <!-- CategoryFilter -->
+    </classes>
+  </test> <!-- Category_filter(failed)(failed) -->
+  <test thread-count="5" name="Invite_SellerMemberSubcompanyShare(failed)(failed)">
+    <classes>
+      <class name="InviteSellerMemberSubcompanyShare">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="close_browser"/>
+          <include name="invite_URL"/>
+        </methods>
+      </class> <!-- InviteSellerMemberSubcompanyShare -->
+    </classes>
+  </test> <!-- Invite_SellerMemberSubcompanyShare(failed)(failed) -->
+  <test thread-count="5" name="Invite_SellerAdminSubcompanyShare(failed)(failed)">
+    <classes>
+      <class name="InviteSellerAdminSubcompanyShare">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="invite_URL"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- InviteSellerAdminSubcompanyShare -->
+    </classes>
+  </test> <!-- Invite_SellerAdminSubcompanyShare(failed)(failed) -->
+  <test thread-count="5" name="Invite_BuyerAdminNormalShare(failed)(failed)">
+    <classes>
+      <class name="InviteBuyerAdminNormalShare">
+        <methods>
+          <include name="community_StandardInvite"/>
+          <include name="launchbrowser"/>
+          <include name="invite_URL"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- InviteBuyerAdminNormalShare -->
+    </classes>
+  </test> <!-- Invite_BuyerAdminNormalShare(failed)(failed) -->
+  <test thread-count="5" name="Quick_Links(failed)(failed)">
+    <classes>
+      <class name="QuickLinks">
+        <methods>
+          <include name="quickLinks"/>
+          <include name="Lauchbrowser"/>
+        </methods>
+      </class> <!-- QuickLinks -->
+    </classes>
+  </test> <!-- Quick_Links(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Clientshare]] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Quick_Links"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="76.455">
+  <properties />
+  
+  
+            <testcase name="quickLinks" time="35.399" classname="QuickLinks" />
+                <testcase name="loginAdmin" time="41.056" classname="QuickLinks" />
+      
+</testsuite>

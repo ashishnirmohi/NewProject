@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bulk_upload_validation_records2000"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="146.410">
+  <properties />
+  
+  
+            <testcase name="Login" time="47.066" classname="BulkUploadValidationOne" />
+                <testcase name="bulkInvite_URL2000Validation" time="99.344" classname="BulkUploadValidationOne" />
+      
+</testsuite>

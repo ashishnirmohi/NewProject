@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bulk_Invite_URL"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="277.285">
+  <properties />
+  
+  
+            <testcase name="homepageCS" time="65.184" classname="BulkInviteURL" />
+                <testcase name="switchShare" time="65.008" classname="BulkInviteURL" />
+                <testcase name="bulkInvite_URL" time="147.093" classname="BulkInviteURL" />
+      
+</testsuite>

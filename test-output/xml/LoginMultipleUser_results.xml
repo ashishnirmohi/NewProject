@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login_MultipleUser"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="135.860">
+  <properties />
+  
+  
+            <testcase name="loginmember" time="54.263" classname="LoginMultipleUser" />
+                <testcase name="loginmember" time="30.639" classname="LoginMultipleUser" />
+                <testcase name="loginmember" time="50.958" classname="LoginMultipleUser" />
+      
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Account"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="127.934">
+  <properties />
+  
+  
+            <testcase name="disable_MyAccount" time="45.151" classname="Account" />
+                <testcase name="accountPassword" time="22.581" classname="Account" />
+                <testcase name="resetPassword" time="16.090" classname="Account" />
+                <testcase name="accountLogin" time="44.112" classname="Account" />
+      
+</testsuite>

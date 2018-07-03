@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bulk_upload"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="62.878">
+  <properties />
+  
+  
+            <testcase name="bulkInvite_settings" time="34.416" classname="BulkUpload" />
+                <testcase name="bulkUploadLogin" time="28.462" classname="BulkUpload" />
+      
+</testsuite>

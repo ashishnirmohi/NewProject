@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Clientshare]]]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="AddPost_Settings(failed)(failed)(failed)">
+    <classes>
+      <class name="AddPostSettings">
+        <methods>
+          <include name="delete_Post"/>
+          <include name="unpin_NewPost"/>
+          <include name="launchbrowser"/>
+          <include name="switchShare"/>
+          <include name="close_Browser"/>
+        </methods>
+      </class> <!-- AddPostSettings -->
+    </classes>
+  </test> <!-- AddPost_Settings(failed)(failed)(failed) -->
+  <test thread-count="5" name="Bulk_upload(failed)(failed)(failed)">
+    <classes>
+      <class name="BulkUpload">
+        <methods>
+          <include name="bulkInvite_settings"/>
+          <include name="close_browser"/>
+          <include name="Lauchbrowser"/>
+        </methods>
+      </class> <!-- BulkUpload -->
+    </classes>
+  </test> <!-- Bulk_upload(failed)(failed)(failed) -->
+  <test thread-count="5" name="Bulk_Invite_URL(failed)(failed)(failed)">
+    <classes>
+      <class name="BulkInviteURL">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="bulkInvite_URL"/>
+          <include name="bulkInvite_URL_FileTypeValidation"/>
+          <include name="bulkInvite_URL2000Validation"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- BulkInviteURL -->
+    </classes>
+  </test> <!-- Bulk_Invite_URL(failed)(failed)(failed) -->
+  <test thread-count="5" name="Category_filter(failed)(failed)(failed)">
+    <classes>
+      <class name="CategoryFilter">
+        <methods>
+          <include name="filterPostByCategory"/>
+          <include name="close_browser"/>
+          <include name="launchbrowser"/>
+          <include name="addCategoryNew"/>
+        </methods>
+      </class> <!-- CategoryFilter -->
+    </classes>
+  </test> <!-- Category_filter(failed)(failed)(failed) -->
+  <test thread-count="5" name="Invite_BuyerMemberNormalShare(failed)(failed)(failed)">
+    <classes>
+      <class name="InviteBuyerMemberNormalShare">
+        <methods>
+          <include name="invite_URL"/>
+          <include name="close_browser"/>
+          <include name="community_InviteFromBuyerMemberNormalShare"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- InviteBuyerMemberNormalShare -->
+    </classes>
+  </test> <!-- Invite_BuyerMemberNormalShare(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Clientshare]]] -->

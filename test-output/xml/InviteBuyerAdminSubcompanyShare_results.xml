@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Invite_BuyerAdminSubcompanyShare"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="449.083">
+  <properties />
+  
+  
+            <testcase name="homepageBuyerAdminSubcompanyCS" time="103.169" classname="InviteBuyerAdminSubcompanyShare" />
+                <testcase name="invite_URL" time="178.034" classname="InviteBuyerAdminSubcompanyShare" />
+                <testcase name="community_InviteFromBuyerAdminSubcompanyShare" time="167.880" classname="InviteBuyerAdminSubcompanyShare" />
+      
+</testsuite>

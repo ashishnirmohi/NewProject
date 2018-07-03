@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Files_module"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="163.836">
+  <properties />
+  
+  
+            <testcase name="login" time="48.502" classname="FilesFilter" />
+                <testcase name="addedBy" time="20.034" classname="FilesFilter" />
+                <testcase name="postSubject" time="16.363" classname="FilesFilter" />
+                <testcase name="file_type" time="25.478" classname="FilesFilter" />
+                <testcase name="file_date" time="23.021" classname="FilesFilter" />
+                <testcase name="files" time="14.815" classname="FilesFilter" />
+                <testcase name="category" time="15.623" classname="FilesFilter" />
+      
+</testsuite>

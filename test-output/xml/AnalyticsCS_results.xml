@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Analytics_CS"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="610.770">
+  <properties />
+  
+  
+            <testcase name="analytics_SelectAllShare_Graphs" time="147.804" classname="AnalyticsCS" />
+                <testcase name="homepageCS" time="44.895" classname="AnalyticsCS" />
+                <testcase name="switchShare" time="61.076" classname="AnalyticsCS" />
+                <testcase name="analytics_DownloadXSLX" time="66.761" classname="AnalyticsCS" />
+                <testcase name="analytics_DownloadPDF" time="43.275" classname="AnalyticsCS" />
+                <testcase name="analytics_landing_Page" time="70.976" classname="AnalyticsCS" />
+                <testcase name="analytics_Filter_MonthYear" time="175.983" classname="AnalyticsCS" />
+      
+</testsuite>
